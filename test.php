@@ -1,5 +1,5 @@
 <?php
-$fichier = "02-04-2023--09:55:28-3.jp   ";
+$fichier = "02-04-2023--09:55:28-3.jpg";
 $image = __DIR__ . "/images/all/" . $fichier;
 $infos = getimagesize($image);
 $largeur = $infos[0];
