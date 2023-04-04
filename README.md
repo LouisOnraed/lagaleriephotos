@@ -10,5 +10,5 @@ Une simple étoile à <a href="https://github.com/LouisOnraed/lagaleriephotos">c
         
 ### 🙇 Auteur
 #### Moi
-- <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">: [@LouisOnraed](https://github.com/LouisOnraed/)
+- Github: [@LouisOnraed](https://github.com/LouisOnraed/)
 - Instagram: [@louisonraed](https://www.instagram.com/louisonraed/)
