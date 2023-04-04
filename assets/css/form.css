@@ -1,0 +1,49 @@
+#main{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.error{
+    color: rgb(255, 51, 44);
+    text-align: center;
+    transition: 0.5s;
+    animation: fade-in 0.5s ease-out;
+    margin-top: 20px;
+    display: block;
+}
+
+table, tr, td{
+    text-align: center;
+}
+
+@keyframes fade-in {
+
+    from{
+
+        transform: translateY(-20px);
+
+    }
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+
+label{
+
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+}

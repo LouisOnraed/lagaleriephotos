@@ -1,0 +1,4 @@
+ErrorDocument 404 http://lagaleriephotos.42web.io/
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone Europe/Paris
