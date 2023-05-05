@@ -17,7 +17,7 @@
 					<?php include_once("header.php"); ?>
 
 				<!-- Main -->
-					<div id="main">
+				<div id="main">
 						<?php
 						include_once('con_Img.php');
 						if(isset($_POST['send'])){
@@ -31,7 +31,11 @@
 									
 									if($move_image){
 										$title = $_POST['titre'];
+										$title = str_replace("'", " ", $title);
+										$title = str_replace('"', " ", $title);
 										$description = $_POST['description'];
+										$description = str_replace("'", " ", $description);
+										$description = str_replace('"', " ", $description);
 										$time = date("d/m/Y");
 										$req = "INSERT INTO `all_img` (`id`, `titre`, `description`, `date_publication`, `nom_image`) VALUES (NULL, '$title', '$description', '$time', '$new_name_img')";
 										if($db->query($req)){
@@ -99,7 +103,6 @@
 							} else{
 								$messageError = "Identifiant ou mot de passe incorrect";
 							}
-							
 						}
 						?>
 						<form action="" method="POST" enctype="multipart/form-data">
