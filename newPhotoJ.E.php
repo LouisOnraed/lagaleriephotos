@@ -21,7 +21,7 @@
 						<?php
 						include_once('con_Img.php');
 						if(isset($_POST['send'])){
-							if(isset($_POST['identifient']) && $_POST['identifient'] == "ONRAED" && isset($_POST['mdp']) && $_POST['mdp'] == "LOUISCHATs1"){
+							if(isset($_POST['identifient']) && $_POST['identifient'] == "***" && isset($_POST['mdp']) && $_POST['mdp'] == "***"){
 								if(!empty($_FILES['image']) && isset($_POST['titre']) && $_POST['titre'] != "" && isset($_POST['description']) && $_POST['description'] != ""){
 									$image_name = $_FILES['image']['name'];
 									$tmp_nom = $_FILES['image']['tmp_name'];
